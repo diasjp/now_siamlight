@@ -1,10 +1,9 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<database>
+<?xml version="1.0" encoding="UTF-8"?><database>
     <element label="Structure Map" max_length="40" name="x_snc_siam_light_structure_map" type="collection">
         <element choice="3" default="1" label="Cardinality" max_length="40" name="cardinality" type="choice">
             <choice>
-                <element label="Many" sequence="0" value="n"/>
-                <element label="One" sequence="1" value="1"/>
+                <element inactive_on_update="false" label="Many" sequence="0" value="n"/>
+                <element inactive_on_update="false" label="One" sequence="1" value="1"/>
             </choice>
         </element>
         <element label="Store parent sys_id in child record" max_length="40" name="child_sysid" type="boolean"/>

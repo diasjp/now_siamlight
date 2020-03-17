@@ -1,18 +1,17 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<database>
+<?xml version="1.0" encoding="UTF-8"?><database>
     <element label="Field map" max_length="40" name="x_snc_siam_light_field_map" type="collection">
         <element label="Coalesce on input" max_length="40" name="coalesce" type="boolean"/>
         <element choice="2" default="yyyy-MM-dd HH:mm:ss" label="Date format" max_length="40" name="date_format" type="string">
             <choice>
-                <element label="dd-MM-yyyy" value="dd-MM-yyyy"/>
-                <element label="dd-MM-yyyy HH:mm:ss" value="dd-MM-yyyy HH:mm:ss"/>
-                <element label="dd-MM-yyyy HH:mm:ss z" value="dd-MM-yyyy HH:mm:ss z"/>
-                <element label="MM-dd-yyyy" value="MM-dd-yyyy"/>
-                <element label="MM-dd-yyyy HH:mm:ss" value="MM-dd-yyyy HH:mm:ss"/>
-                <element label="MM-dd-yyyy HH:mm:ss z" value="MM-dd-yyyy HH:mm:ss z"/>
-                <element label="yyyy-dd-MM" value="yyyy-dd-MM"/>
-                <element label="yyyy-MM-dd" value="yyyy-MM-dd"/>
-                <element label="yyyy-MM-dd HH:mm:ss" value="yyyy-MM-dd HH:mm:ss"/>
+                <element inactive_on_update="false" label="dd-MM-yyyy" value="dd-MM-yyyy"/>
+                <element inactive_on_update="false" label="dd-MM-yyyy HH:mm:ss" value="dd-MM-yyyy HH:mm:ss"/>
+                <element inactive_on_update="false" label="dd-MM-yyyy HH:mm:ss z" value="dd-MM-yyyy HH:mm:ss z"/>
+                <element inactive_on_update="false" label="MM-dd-yyyy" value="MM-dd-yyyy"/>
+                <element inactive_on_update="false" label="MM-dd-yyyy HH:mm:ss" value="MM-dd-yyyy HH:mm:ss"/>
+                <element inactive_on_update="false" label="MM-dd-yyyy HH:mm:ss z" value="MM-dd-yyyy HH:mm:ss z"/>
+                <element inactive_on_update="false" label="yyyy-dd-MM" value="yyyy-dd-MM"/>
+                <element inactive_on_update="false" label="yyyy-MM-dd" value="yyyy-MM-dd"/>
+                <element inactive_on_update="false" label="yyyy-MM-dd HH:mm:ss" value="yyyy-MM-dd HH:mm:ss"/>
             </choice>
         </element>
         <element display="true" label="External fieldname" max_length="40" name="external_fieldname" type="string"/>
@@ -24,8 +23,8 @@
         <element label="Message type" max_length="32" name="message_type" read_only="true" reference="x_snc_siam_light_message_type" type="reference"/>
         <element choice="3" default="display" label="Output value" max_length="40" name="output_value" type="string">
             <choice>
-                <element label="Display Value" sequence="0" value="display"/>
-                <element label="Database Value" sequence="1" value="database"/>
+                <element inactive_on_update="false" label="Display Value" sequence="0" value="display"/>
+                <element inactive_on_update="false" label="Database Value" sequence="1" value="database"/>
             </choice>
         </element>
         <element label="Table" max_length="80" name="table" read_only="true" type="table_name"/>

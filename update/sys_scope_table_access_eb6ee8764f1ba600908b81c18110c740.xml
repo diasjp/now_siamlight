@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<record_update table="sys_scope_table_access">
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_scope_table_access">
     <sys_scope_table_access action="INSERT_OR_UPDATE">
         <create_access>false</create_access>
         <delete_access>false</delete_access>
@@ -90,13 +89,11 @@
         <sys_class_name>sys_scope_table_access</sys_class_name>
         <sys_created_by>Richard.Szolar.admin</sys_created_by>
         <sys_created_on>2016-12-15 13:57:04</sys_created_on>
-        <sys_customer_update>false</sys_customer_update>
         <sys_id>eb6ee8764f1ba600908b81c18110c740</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>sys_script</sys_name>
         <sys_package display_value="SIAM Light" source="x_snc_siam_light">add64881295f42002e68eb689ad1b2ab</sys_package>
         <sys_policy/>
-        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="SIAM Light">add64881295f42002e68eb689ad1b2ab</sys_scope>
         <sys_update_name>sys_scope_table_access_eb6ee8764f1ba600908b81c18110c740</sys_update_name>
         <sys_updated_by>Richard.Szolar.admin</sys_updated_by>

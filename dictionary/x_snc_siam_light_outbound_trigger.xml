@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<database>
+<?xml version="1.0" encoding="UTF-8"?><database>
     <element label="Outbound Trigger" max_length="40" name="x_snc_siam_light_outbound_trigger" type="collection">
         <element default="true" label="Delete" max_length="40" name="action_delete" type="boolean"/>
         <element default="true" label="Insert" max_length="40" name="action_insert" type="boolean"/>
